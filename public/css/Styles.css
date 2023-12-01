@@ -1,27 +1,45 @@
-body{
-  background-image: url(https://cdn.dribbble.com/users/498786/screenshots/10512253/media/e36d83faf1be80369e15732f1296ae93.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% ;
-  height: 450px;
+html {
+  background-color: #e4e9fd;
+  background-image: -webkit-linear-gradient(45deg, #00ffff 50%, #e4e9fd 50%);
+  height: 100vh;
+  font-family: 'helvetica neue';
 }
-.header{
+.header {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.inputcity {
+  padding: 5px;
   text-align: center;
 }
-.inputcity{
-  text-align: center;
-}
-input[type="text"]{
+input[type='text'] {
   height: 30px;
-  width:300px;
+  width: 200px;
   background-color: #e7e7e7;
-  font-family: "Nunito",sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: bold;
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
 }
-button{
-  background-color: #F0F8FF;
+
+.box {
+  width: 20vw;
+  height: 60vh;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
+  background-image: -webkit-linear-gradient(225deg, #00ffff 50%, #e4e9fd 50%);
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  min-width: 30vw;
+  min-height: 80vh;
+}
+
+button {
+  background-color: #f0f8ff;
   color: black;
   height: 40px;
   width: 100px;
@@ -29,6 +47,8 @@ button{
   border-radius: 10px;
   margin-top: 10px;
 }
-label{
-  font-size: 30px;
+
+.top {
+  text-align: center;
+  font-size: 2.5vh;
 }
